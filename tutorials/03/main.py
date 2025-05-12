@@ -64,13 +64,13 @@ if __name__ == "__main__":
             update_screen_thread.start()
             print("Thread started")
 
-        elif user_input == 'z':
+        if user_input =='z':
             pass
 
-        elif user_input == 'f':
+        if user_input == 'f':
             pass
 
-        elif user_input == 'q':
+        if user_input == 'q':
             break
 
         else:
